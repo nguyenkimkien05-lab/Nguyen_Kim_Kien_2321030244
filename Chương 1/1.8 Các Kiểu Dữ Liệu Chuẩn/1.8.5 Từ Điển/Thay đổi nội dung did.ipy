@@ -1,0 +1,14 @@
+# Cap nhat gia tri trong dictionary Python
+
+info = {
+    "name": "Kien",
+    "member": 10
+}
+
+# Thay doi gia tri cua key "name"
+info["name"] = "Kien"
+print(info)
+
+# Tang gia tri cua key "member"
+info["member"] = info["member"] + 1
+print(info)
